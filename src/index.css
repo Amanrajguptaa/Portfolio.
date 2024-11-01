@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+@font-face {
+  font-family: 'horizon';
+  src: url('/horizon.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'eyesome';
+  src: url('/eyesomeScript.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
