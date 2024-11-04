@@ -48,7 +48,7 @@ const HeroSection = () => {
         <div className="flex flex-col justify-center items-center">
         <h1 className="font-horizon text-[26px] md:text-7xl">I Build</h1>
         <h1 className="font-horizon text-[20px] md:text-7xl">Amazing Websites</h1>
-        <h2 className="font-eyesome text-4xl md:text-7xl -mt-3 md:-mt-3 text-yellow-400 warp">at Warp Speed</h2>
+        <h2 className="font-eyesome text-4xl md:text-7xl -mt-1 md:-mt-3 text-yellow-400 warp">at Warp Speed</h2>
         </div>
 
         <div className="hidden md:block">

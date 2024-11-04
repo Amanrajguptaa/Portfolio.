@@ -79,13 +79,13 @@ const AboutSection = () => {
   // }, []);
 
   return (
-    <div className=" my-20 md:mt-40">
+    <div className="my-20 md:mt-40">
+
       <div className="">
         <div className="flex justify-center items-center">
           <div>
-            <h2 className="font-horizon text-4xl md:text-7xl flex justify-end">
-              ITS
-            </h2>
+            <h2 className="font-horizon text-4xl md:text-7xl flex justify-end">ITS
+</h2>
             <h2 className="font-horizon text-4xl md:text-7xl">ABOUT</h2>
           </div>
           <h2 className="font-eyesome text-6xl md:text-9xl text-yellow-400 -rotate-12">
@@ -95,11 +95,12 @@ const AboutSection = () => {
 
         <div className="flex mt-5 md:mt-10 ">
           <div className="flex justify-center items-center ">
-            <div className="flex flex-col  md:translate-x-44 -z-1">
+            
+            <div className="flex flex-col md:translate-x-44 -z-1 ">
               <div className="rounded-full w-full bg-black border border-purple-600  ">
-                <img src="/like.png" alt="" />
+                <img className="w-full" src="/like.png" alt="" />
               </div>
-              <p className="hidden md:block font-horizon  md:text-md mt-4 md:mx-10">POSITIVE</p>
+              <p className="hidden md:block font-horizon md:text-md mt-4 md:mx-10">POSITIVE</p>
             </div>
 
             <div className="flex flex-col md:translate-x-1/3 z-10 ">
@@ -123,7 +124,7 @@ const AboutSection = () => {
               <p className="hidden md:block font-horizon  md:text-md mt-4 md:mx-12">INQUISTIVE</p>
             </div>
 
-            <div className="flex flex-col md:-translate-x-40 -z-1">
+            <div className="flex flex-col md:-translate-x-40  -z-1">
               <div className="rounded-full w-full bg-black border border-purple-600  ">
                 <img src="/heart.png" alt="" />
               </div>
@@ -131,7 +132,9 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
+
       </div>
+
     </div>
   );
 };
