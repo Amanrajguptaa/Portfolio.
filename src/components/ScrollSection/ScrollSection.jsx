@@ -22,9 +22,9 @@ const ScrollSection = () => {
             }
           >
             <img
-              src="https://rukminim2.flixcart.com/image/850/1000/kbxzbm80/paper/f/h/z/a4-purple-paper-40-coloured-paper-officekart-original-imaft6krmyh6dscz.jpeg?q=20&crop=false"
+              src="/works.png"
               alt="hero"
-              className="mx-auto rounded-2xl object-cover w-full h-full object-left-top"
+              className="mx-auto rounded-2xl object-cover w-full h-full "
               draggable={false}
             />
           </ContainerScroll>

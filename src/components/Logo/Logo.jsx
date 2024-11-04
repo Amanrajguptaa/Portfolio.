@@ -66,7 +66,7 @@ const Logo = () => {
           </a>
         </li>
         <li className="icon-content">
-          <a data-social="youtube" aria-label="Youtube" href="mailto:" target="_blank">
+          <a data-social="youtube" aria-label="Youtube" href="mailto:rajaman9355@gmail.com" target="_blank">
             <div className="filled" />
             <svg
               space="preserve"

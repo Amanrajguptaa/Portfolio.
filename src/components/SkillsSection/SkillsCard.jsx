@@ -9,7 +9,7 @@ const SkillsCard = ({item}) => {
         <div className="card">
           <div className="ray" />
           <img className='h-12 w-12' src={item.uri} alt="" />
-          <div>{item.name}</div>
+          <div className='mt-4 text-xs font-horizon'>{item.name}</div>
           <div className="line topl" />
           <div className="line leftl" />
           <div className="line bottoml" />

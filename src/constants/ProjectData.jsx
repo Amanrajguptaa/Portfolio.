@@ -1,5 +1,35 @@
 const ProjectData = [
   {
+    gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
+    projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730734516/Portfolio/Screenshot_2024-11-04_210412_gpvckd.png",
+    projectName: "AI TRIP PLANNER",
+    projectDesp: "Designed to make your travel planning effortless and enjoyable.Features include real-time updates, budget optimization, and instant recommendations, ensuring that every experience aligns with your expectations while keeping you within your budget. With the AI Trip Planner, enjoy a smooth, hassle-free travel experience filled with excitement and adventure",
+    projectLink: "",
+    projectTech: [
+        {
+            TechStackName: "React",
+            TechStackImage: "/4.svg",
+          },
+          {
+            TechStackName: "Tailwind",
+            TechStackImage: "/3.svg",
+          },
+          {
+            TechStackName: "Redux",
+            TechStackImage: "/5.svg",
+          },
+          {
+            TechStackName: "Firebase",
+            TechStackImage: "/firebase.svg",
+          },
+          {
+            TechStackName: "Gemini",
+            TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
+          },
+          
+    ],
+  },
+  {
     gradient: "bg-gradient-to-t from-purple-500 to-indigo-100",
     projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730728417/Portfolio/Screenshot_2024-11-04_180052_fkyxj9.png",
     projectName: "Creative Agency Website",
@@ -63,36 +93,7 @@ const ProjectData = [
           },
     ],
   },
-  {
-    gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
-    projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730734516/Portfolio/Screenshot_2024-11-04_210412_gpvckd.png",
-    projectName: "AI TRIP PLANNER",
-    projectDesp: "Designed to make your travel planning effortless and enjoyable.Features include real-time updates, budget optimization, and instant recommendations, ensuring that every experience aligns with your expectations while keeping you within your budget. With the AI Trip Planner, enjoy a smooth, hassle-free travel experience filled with excitement and adventure",
-    projectLink: "",
-    projectTech: [
-        {
-            TechStackName: "React",
-            TechStackImage: "/4.svg",
-          },
-          {
-            TechStackName: "Tailwind",
-            TechStackImage: "/3.svg",
-          },
-          {
-            TechStackName: "Redux",
-            TechStackImage: "/5.svg",
-          },
-          {
-            TechStackName: "Firebase",
-            TechStackImage: "/firebase.svg",
-          },
-          {
-            TechStackName: "Gemini",
-            TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
-          },
-          
-    ],
-  },
+  
 ];
 
 export default ProjectData;
