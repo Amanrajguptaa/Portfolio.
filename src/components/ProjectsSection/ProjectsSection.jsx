@@ -35,7 +35,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <div className='my-20 md:mt-40 md:px-10 overflow-x-hidden'>
+    <div id='projects' className='my-20 md:mt-40 md:px-10 overflow-x-hidden'>
         <h2 className='font-horizon text-4xl md:text-7xl text-center'>PROJECTS</h2>
       <Slider {...settings}>
         {ProjectData.map((item, index) => (

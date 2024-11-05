@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className="my-20 md:mt-40">
+    <div id="about" className="my-20 md:mt-40">
       <div className="">
 
         <div className="flex justify-center items-center">

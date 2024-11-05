@@ -13,8 +13,9 @@ const Navbar = () => {
           
           <div className="hidden md:flex space-x-6 font-bold">
             <a href="#about" className="text-white hover:text-yellow-400 transition duration-300">About</a>
-            <a href="#work" className="text-white hover:text-yellow-400 transition duration-300">Work</a>
+            <a href="#skills" className="text-white hover:text-yellow-400 transition duration-300">Skills</a>
             <a href="#projects" className="text-white hover:text-yellow-400 transition duration-300">Projects</a>
+            <a href="https://amanrajgupta.hashnode.dev/" target='_blank' className="text-white hover:text-yellow-400 transition duration-300">Blogs</a>
             <a href="#contact" className="text-white hover:text-yellow-400 transition duration-300">Contact</a>
           </div>
           
@@ -32,8 +33,9 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center font-bold backdrop-blur-md">
             <a href="#about" className="block text-white hover:text-yellow-400 transition duration-300 py-2 px-3 rounded-md">About</a>
-            <a href="#work" className="block text-white hover:text-yellow-400 transition duration-300 py-2 px-3 rounded-md">Work</a>
+            <a href="#skills" className="block text-white hover:text-yellow-400 transition duration-300 py-2 px-3 rounded-md">Work</a>
             <a href="#projects" className="block text-white hover:text-yellow-400 transition duration-300 py-2 px-3 rounded-md">Projects</a>
+            <a href="https://amanrajgupta.hashnode.dev/" target='_blank' className="text-white hover:text-yellow-400 transition duration-300">Blogs</a>
             <a href="#contact" className="block text-white hover:text-yellow-400 transition duration-300 py-2 px-3 rounded-md">Contact</a>
           </div>
         </div>
