@@ -1,10 +1,10 @@
 const ProjectData = [
   {
     gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
-    projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730734516/Portfolio/Screenshot_2024-11-04_210412_gpvckd.png",
+    projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730791436/Portfolio/Screenshot_2024-11-05_125332_jw8uaj.png",
     projectName: "AI TRIP PLANNER",
     projectDesp: "Designed to make your travel planning effortless and enjoyable.Features include real-time updates, budget optimization, and instant recommendations, ensuring that every experience aligns with your expectations while keeping you within your budget. With the AI Trip Planner, enjoy a smooth, hassle-free travel experience filled with excitement and adventure",
-    projectLink: "",
+    projectLink: "https://aitripmate.vercel.app",
     projectTech: [
         {
             TechStackName: "React",

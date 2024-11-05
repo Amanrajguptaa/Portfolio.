@@ -9,11 +9,11 @@ const IntroSection = () => {
           <h1 className="font-horizon text-[23px] md:text-6xl">
             AMAN RAJ GUPTA
           </h1>
-          <h3 className=" font-horizon text-[10px] md:text-[16px] mt-3 tracking-wider text-gray-300">
+          <h3 className=" font-horizon text-[12px] md:text-[16px] mt-3 tracking-wider text-gray-300">
             WEB DEVELOPER | PROGRAMMER | TECHNOLOGY ENTHUSIAST
           </h3>
 
-          <p className="font-eyesome text-yellow-400 text-sm md:text-3xl mt-3 italic hover:text-purple-400 transition-colors duration-300">
+          <p className="font-eyesome text-yellow-400 text-2xl md:text-3xl mt-3 italic hover:text-purple-400 transition-colors duration-300">
             "Bringing visions to life through the language of code"
           </p>
           <button className=" text-sm md:text-lg mt-5 bg-gradient-to-r from-purple-600 to-purple-400 rounded-3xl px-6 py-3 font-semibold hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-purple-500/50">

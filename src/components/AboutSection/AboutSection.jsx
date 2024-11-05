@@ -46,7 +46,7 @@ const AboutSection = () => {
 
           <div className="md:-translate-x-[25%] z-10 ">
           <div className="rounded-full bg-purple-600 border border-purple-600   z-10">
-            <img className="" src="/curious.png" alt="" />
+            <img src="/curious.png" alt="" />
             </div>
             <p className="hidden md:block font-horizon mt-4 mx-10">INQUISTIVE</p>
 
