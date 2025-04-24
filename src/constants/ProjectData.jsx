@@ -1,36 +1,37 @@
 const ProjectData = [
   {
     gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
-    projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730791436/Portfolio/Screenshot_2024-11-05_125332_jw8uaj.png",
+    projectImage: "https://res.cloudinary.com/dkqbawsqm/image/upload/v1745482412/Screenshot_2025-04-24_at_1.41.06_PM_zpbu8w.png",
     projectName: "CUREMEET",
-    projectDesp: "A Full Stack Hospital Managemnet and Doctor Appointmnet Booking App",
+    projectDesp: "A Full Stack Hospital Management and Doctor Appointment Booking App",
     projectLink: "https://curemeet.vercel.app",
     projectTech: [
-      {
-        TechStackName: "React",
-        TechStackImage: "/4.svg",
-      },
-      {
-        TechStackName: "Tailwind",
-        TechStackImage: "/3.svg",
-      },
-      {
-        TechStackName: "Context API",
-        TechStackImage: "/5.svg",
-      },
-      {
-        TechStackName: "Express",
-        TechStackImage: "/firebase.svg",
-      },
-      {
-        TechStackName: "Mongo DB",
-        TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
-      },
-      {
-        TechStackName: "Node",
-        TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
-      },
-    ],
+  {
+    TechStackName: "MongoDB",
+    TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+  },
+  {
+    TechStackName: "Express",
+    TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+  },
+  {
+    TechStackName: "React",
+    TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+  },
+  {
+    TechStackName: "Node.js",
+    TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    TechStackName: "Tailwind CSS",
+    TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+  },
+  {
+    TechStackName: "Context API",
+    TechStackImage: "/5.svg",
+  }
+]
+
   },
   {
     gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
