@@ -2,31 +2,63 @@ const ProjectData = [
   {
     gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
     projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730791436/Portfolio/Screenshot_2024-11-05_125332_jw8uaj.png",
+    projectName: "CUREMEET",
+    projectDesp: "A Full Stack Hospital Managemnet and Doctor Appointmnet Booking App",
+    projectLink: "https://curemeet.vercel.app",
+    projectTech: [
+      {
+        TechStackName: "React",
+        TechStackImage: "/4.svg",
+      },
+      {
+        TechStackName: "Tailwind",
+        TechStackImage: "/3.svg",
+      },
+      {
+        TechStackName: "Context API",
+        TechStackImage: "/5.svg",
+      },
+      {
+        TechStackName: "Express",
+        TechStackImage: "/firebase.svg",
+      },
+      {
+        TechStackName: "Mongo DB",
+        TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
+      },
+      {
+        TechStackName: "Node",
+        TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
+      },
+    ],
+  },
+  {
+    gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
+    projectImage: "https://res.cloudinary.com/dwwd1oncs/image/upload/v1730791436/Portfolio/Screenshot_2024-11-05_125332_jw8uaj.png",
     projectName: "AI TRIP PLANNER",
     projectDesp: "An AI Based App designed to make your travel planning enjoyable.Features include real-time updates, budget optimization, and instant recommendations, ensuring that experience aligns with your expectations while keeping you within your budget",
     projectLink: "https://aitripmate.vercel.app",
     projectTech: [
-        {
-            TechStackName: "React",
-            TechStackImage: "/4.svg",
-          },
-          {
-            TechStackName: "Tailwind",
-            TechStackImage: "/3.svg",
-          },
-          {
-            TechStackName: "Redux",
-            TechStackImage: "/5.svg",
-          },
-          {
-            TechStackName: "Firebase",
-            TechStackImage: "/firebase.svg",
-          },
-          {
-            TechStackName: "Gemini",
-            TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
-          },
-          
+      {
+        TechStackName: "React",
+        TechStackImage: "/4.svg",
+      },
+      {
+        TechStackName: "Tailwind",
+        TechStackImage: "/3.svg",
+      },
+      {
+        TechStackName: "Redux",
+        TechStackImage: "/5.svg",
+      },
+      {
+        TechStackName: "Firebase",
+        TechStackImage: "/firebase.svg",
+      },
+      {
+        TechStackName: "Gemini",
+        TechStackImage: "https://brandlogo.org/wp-content/uploads/2024/06/Gemini-Icon-300x300.png.webp",
+      },
     ],
   },
   {
@@ -64,10 +96,12 @@ const ProjectData = [
       {
         TechStackName: "CSS",
         TechStackImage: "/2.svg",
-      },{
+      },
+      {
         TechStackName: "Javascript",
         TechStackImage: "/7.svg",
-      },{
+      },
+      {
         TechStackName: "GSAP",
         TechStackImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vteG2DudlxILcIB8idhgX49HFuCk4_nEtQ&s",
       },
@@ -80,20 +114,20 @@ const ProjectData = [
     projectDesp: "This game features smooth animations and intuitive gameplay creating a fun and engaging experience as players go head-to-head. The polished layout and responsive interface make it a standout version of the classic game, perfect for quick, enjoyable matches between friends",
     projectLink: "https://crosszerogame.vercel.app/",
     projectTech: [
-        {
-            TechStackName: "HTML",
-            TechStackImage: "/1.svg",
-          },
-          {
-            TechStackName: "CSS",
-            TechStackImage: "/2.svg",
-          },{
-            TechStackName: "Javascript",
-            TechStackImage: "/7.svg",
-          },
+      {
+        TechStackName: "HTML",
+        TechStackImage: "/1.svg",
+      },
+      {
+        TechStackName: "CSS",
+        TechStackImage: "/2.svg",
+      },
+      {
+        TechStackName: "Javascript",
+        TechStackImage: "/7.svg",
+      },
     ],
   },
-  
 ];
 
 export default ProjectData;
