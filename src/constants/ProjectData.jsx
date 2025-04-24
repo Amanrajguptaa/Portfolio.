@@ -1,9 +1,9 @@
 const ProjectData = [
   {
-    gradient: "bg-gradient-to-t from-blue-500 via-blue-300 to-blue-100",
+    gradient: "bg-gradient-to-t from-red-500 via-red-300 to-red-100",
     projectImage: "https://res.cloudinary.com/dkqbawsqm/image/upload/v1745482412/Screenshot_2025-04-24_at_1.41.06_PM_zpbu8w.png",
     projectName: "CUREMEET",
-    projectDesp: "A Full Stack Hospital Management and Doctor Appointment Booking App",
+    projectDesp: "A Full Stack Hospital Management and Doctor Appointment Booking App is a comprehensive web application that streamlines the entire patient-doctor-hospital interaction process",
     projectLink: "https://curemeet.vercel.app",
     projectTech: [
   {
@@ -21,14 +21,6 @@ const ProjectData = [
   {
     TechStackName: "Node.js",
     TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-  },
-  {
-    TechStackName: "Tailwind CSS",
-    TechStackImage: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-  },
-  {
-    TechStackName: "Context API",
-    TechStackImage: "/5.svg",
   }
 ]
 
